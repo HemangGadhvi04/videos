@@ -356,7 +356,7 @@
         /* === FLOATING MESSAGE === */
         .floating-message {
             position: absolute;
-            top: -60px;
+            top: -100px;
             left: 50%;
             transform: translateX(-50%);
             background: rgba(255, 255, 255, 0.95);
@@ -719,28 +719,28 @@
     <!-- VIDEO MEMORY WALL -->
     <div id="video-wall">
         <div class="video-cell">
-            <video src="/Users/hemanggadhvi/videos/clip1.MP4" autoplay muted loop playsinline></video>
+            <video src="clip1.MP4" autoplay muted loop playsinline></video>
         </div>
         <div class="video-cell">
-            <video src="/Users/hemanggadhvi/videos/clip2.Mp4" autoplay muted loop playsinline></video>
+            <video src="clip2.Mp4" autoplay muted loop playsinline></video>
         </div>
         <div class="video-cell">
-            <video src="/Users/hemanggadhvi/videos/clip3.Mp4" autoplay muted loop playsinline></video>
+            <video src="clip3.Mp4" autoplay muted loop playsinline></video>
         </div>
         <div class="video-cell">
-            <video src="/Users/hemanggadhvi/videos/clip5.MP4" autoplay muted loop playsinline></video>
+            <video src="clip5.MP4" autoplay muted loop playsinline></video>
         </div>
         <div class="video-cell">
-            <video src="/Users/hemanggadhvi/videos/clip6.MP4" autoplay muted loop playsinline></video>  
+            <video src="clip6.MP4" autoplay muted loop playsinline></video>  
         </div>
         <div class="video-cell">
-            <video src="/Users/hemanggadhvi/videos/clip7.MOV" autoplay muted loop playsinline></video>
+            <video src="clip7.MOV" autoplay muted loop playsinline></video>
         </div>
         <div class="video-cell">
-            <video src="/Users/hemanggadhvi/videos/clip4.Mp4" autoplay muted loop playsinline></video>
+            <video src="clip4.Mp4" autoplay muted loop playsinline></video>
         </div>
         <div class="video-cell">
-            <video src="/Users/hemanggadhvi/videos/clip8.MOV" autoplay muted loop playsinline></video>
+            <video src="clip8.MOV" autoplay muted loop playsinline></video>
         </div>
     </div>
 
@@ -752,7 +752,7 @@
     <!-- AUDIO TOGGLE -->
     <button id="audio-toggle">🔇 Sound Off</button>
     <audio id="bg-music" loop>
-        <source src="/Users/hemanggadhvi/videos/music.mpeg" type="audio/mpeg">
+        <source src="music.mpeg" type="audio/mpeg">
     </audio>
 
     <!-- EASTER EGG -->
@@ -800,7 +800,7 @@
             <div class="book" id="book">
                 <div class="page" style="z-index: 5;">
                     <div class="front">
-                        <img src="/Users/hemanggadhvi/videos/Happy Valentines.png" alt="Memory 1">
+                        <img src="Happy Valentines.png" alt="Memory 1">
                         <p>Tap to open</p>
                     </div>
                     <div class="back">
@@ -821,18 +821,18 @@
                     </div>
                 </div>
                 <div class="page" style="z-index: 4;">
-                    <div class="front"> <img src="/Users/hemanggadhvi/videos/2.png" alt="Memory 2"></div>
+                    <div class="front"> <img src="2.png" alt="Memory 2"></div>
                     <div class="back"><p>"Mein kya likhu ki teree dil ko sunai de  <br>
                         Mein kya likhu ki tere dil men mere liye jagah banai de <br> 
                         Konse lafz likhu jisse tujhe inke gehrai samjhai de <br>
                          Mein kese sabit karu mein ankhon ko bs tu dikhai de"</p></div>
                 </div>
                 <div class="page" style="z-index: 3;">
-                    <div class="front"><img src="/Users/hemanggadhvi/videos/3.png" alt="Memory 3"></div>
+                    <div class="front"><img src="3.png" alt="Memory 3"></div>
                     <div class="back"><p>"In your quiet presence, I've found the loudest expression of love. You make silence feel like poetry."</p></div>
                 </div>
                 <div class="page" style="z-index: 2;">
-                    <div class="front"><img src="/Users/hemanggadhvi/videos/Screenshot 2026-02-13 at 2.21.54 PM.png" alt="Memory 4"></div>
+                    <div class="front"><img src="Screenshot%202026-02-13%20at%202.21.54%E2%80%AFPM.png" alt="Memory 4"></div>
                     <div class="back"><p>"Meri zindagi mein roshni tab hoti hai,
                         Jab uski aankhon mein chamak hoti hai.
                         Meri zindagi mein hawayein tab chalti hain,
@@ -843,7 +843,7 @@
                         Mujhe Meri duniya bas whi tak dikhayi de."</p></div>
                 </div>
                 <div class="page" style="z-index: 1;">
-                    <div class="front"><img src="/Users/hemanggadhvi/videos/IMG-20251225-WA0023.JPG" alt="Memory 5"></div>
+                    <div class="front"><img src="IMG-20251225-WA0023.JPG" alt="Memory 5"></div>
                     <div class="back"><p>"thoda toh tum mujh par kabhi haq jataya karo , <br>
                         isi bahane sahi tum mujhe apna bataya karo. "</p></div>
                 </div>
@@ -1051,7 +1051,7 @@
             }
 
             if (noClickCount === 12) {
-                floatingMsg.textContent = "Okay okay... I respect your decision. But I'll still adore you.";
+                floatingMsg.textContent = "Okay okay... I respect your decision.";
                 floatingMsg.classList.add('show');
             }
         });
